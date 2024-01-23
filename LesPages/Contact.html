@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input,
+ textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+    </style>>
+  
+    <title>Votre Site Web</title>
+
+   
+</head>
+<body>
+
+    <header>
+        <h1>Curriculum vitæ</h1>
+    </header>
+
+    <nav>
+        <a href="PageD'accueil.html">Accueil</a>
+        <a href="Parcours.html">Parcours</a>
+        <a href="Competence.html">Compétences </a>
+        <a href="Stages.html">Stages</a>
+        <a href="Formation.html">Formations</a>
+        <a href="Matiere.html">Matières</a>
+        <a href="Passions.html">Passions</a>
+        <a href="Quiz.html">Quizz</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Temoignage.html">Témoignage</a>
+    </nav>
+
+   <section>
+    <h2>Contactez-nous</h2>
+
+<form action="https://formspree.io/f/yessmine.bouattour@gmail.com" method="post">
+    <!-- Nom et Prénom -->
+    <label class="Contact" for="nom">Nom et Prénom :</label>
+    <input class="Contact" type="text" id="nom" name="nom" required>
+
+    <!-- Adresse Email -->
+    <label class="Contact" for="email">Adresse Email :</label>
+    <input  class="Contact" type="email" id="email" name="email" required>
+
+    <!-- Message -->
+    <label class="Contact" for="message">Message :</label>
+    <textarea class="Contact" id="message" name="message" rows="4" required></textarea>
+
+    <!-- Bouton d'envoi -->
+    <button type="submit">Envoyer</button>
+</form>
+   </section>
+    
+
+</body>
+</html>
